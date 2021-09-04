@@ -25,3 +25,6 @@ Visit: https://www.kaggle.com/c/quora-question-pairs/data
 
 ### EVALUATION:
 Evaluated on the log loss between the predicted values and the ground truth.
+
+### COMMENT:
+Error will be expensive for quora. So, focus is on probability and to keep the probability threshold to be high for declaring two questions to be duplicates. Latency and interpretability might not be the major concern here.
